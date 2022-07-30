@@ -1,0 +1,111 @@
+/* Style sheet for notes page */
+/* Brian Rudacille - 02/17/19 */
+
+body { 
+	background-color: #dee9c5;
+	color: #666666; 
+}
+
+header { 
+	background-color: #000033;
+	color: #FFFFFF;
+}
+
+h1 { 
+	margin-bottom: 0; 
+}
+
+h2 {
+	color: #3399CC; 
+}
+
+h3 {
+	color: #000000; 
+	padding-left: 5px;
+}
+
+h4 {
+	color: #000000; 
+}
+
+nav {
+	background-color: #90C7E3;
+}
+
+a:link {
+	color: #FF0000;	
+}
+
+a:visited {
+	text-decoration: none;	
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;	
+	color: #FF0066;
+}
+
+dt { 	
+	color: #000033; 
+}
+
+.study { 	
+	color: #C845FF; 
+}
+
+.validator { 	
+	color: #FF0000; 
+	padding-left: 10px;
+}
+
+.chapter { 	
+	color: #000000; 
+	text-shadow: 3px 3px 3px #666;
+	padding-left: 5px;
+}
+
+#container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px 1em;
+	background-color: #A9A9A9;
+	margin-left: 10px;
+	margin-right: auto;
+	padding: 10px 10px 10px 10px;
+	width: 50%;
+	min-width: 650px;
+	box-shadow: 8px 8px 8px #828282;
+	align-self: top;
+}
+
+#container1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px 1em;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 10px 10px 10px 10px;
+	width: 50%;
+	min-width: 650px;
+}
+
+#container2 {
+	background-color: #A9A9A9;
+	margin-left: 10px;
+	margin-right: auto;
+	width: 40%;
+	min-width: 650px;
+	box-shadow: 8px 8px 8px #828282;
+}
+
+#box {
+	border: black 1px solid;
+	background-color: #D8D8D8;
+}
+
+#box2 {
+	border: black 1px solid;
+	background-color: #E8E8E8;
+}
